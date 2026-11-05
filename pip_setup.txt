@@ -1,0 +1,7 @@
+python -m venv ml01
+.\ml01\Scripts\activate
+.\ml01\Scripts\python.exe -m pip install --upgrade pip
+.\ml01\Scripts\python.exe -m pip install jupyter
+ipython kernel install --name "ml01-kernel" --user
+.\ml01\Scripts\python.exe -m pip install pandas matplotlib pulp statsmodels scikit-learn dill pandoc seaborn
+.\ml01\Scripts\deactivate
