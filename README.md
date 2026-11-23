@@ -1,0 +1,1 @@
+Install pyton and jupyer notebook extensions, paste the pip_setup.txt in the terminal and download the data folder from vle
